@@ -4,6 +4,35 @@ Draw a [Maestro](https://maestro.dev) view-hierarchy JSON as an SVG picture.
 Each UI element's `bounds` is drawn as a distinctly coloured box so you can see
 the on-screen layout at a glance.
 
+## Example
+
+Dump a screen's hierarchy with Maestro, then turn it into a picture. The
+screenshot on the left is the device; the SVG on the right is produced from its
+hierarchy by the commands in the middle:
+
+<table>
+<tr>
+<td valign="middle"><img src="docs/home.png" width="260" alt="Device screenshot"></td>
+<td valign="middle">
+
+```bash
+maestro hierarchy > home.json
+
+picture-this \
+  home.json \
+  -o home.svg
+
+## OR ##
+
+maestro hierarchy | \
+  picture-this -o home.svg
+```
+
+</td>
+<td valign="middle"><img src="docs/home.svg" width="260" alt="picture-this SVG of the same screen"></td>
+</tr>
+</table>
+
 ## Install
 
 `picture-this` is a single self-contained binary — no runtime required.

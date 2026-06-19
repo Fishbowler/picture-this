@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2400" viewBox="0 0 1080 2400" font-family="sans-serif">
+  <rect x="0" y="0" width="1080" height="2400" fill="white"/>
+  <rect x="0" y="0" width="1080" height="128" fill="none" stroke="#c32222" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1080" height="128" fill="none" stroke="#22c351" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#22c351">com.android.systemui:id/status_bar_launc…</text>
+  <rect x="0" y="0" width="1080" height="128" fill="none" stroke="#8022c3" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#8022c3">com.android.systemui:id/status_bar_conta…</text>
+  <rect x="0" y="0" width="1080" height="128" fill="none" stroke="#c3af22" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#c3af22">com.android.systemui:id/status_bar</text>
+  <rect x="50" y="0" width="977" height="128" fill="none" stroke="#22a8c3" stroke-width="1.5"/>
+  <text x="52" y="9" font-size="8" fill="#22a8c3">com.android.systemui:id/status_bar_conte…</text>
+  <rect x="50" y="1" width="419" height="127" fill="none" stroke="#c32279" stroke-width="1.5"/>
+  <text x="52" y="10" font-size="8" fill="#c32279">com.android.systemui:id/status_bar_start…</text>
+  <rect x="50" y="1" width="202" height="127" fill="none" stroke="#4ac322" stroke-width="1.5"/>
+  <text x="52" y="10" font-size="8" fill="#4ac322">com.android.systemui:id/status_bar_start…</text>
+  <rect x="50" y="1" width="202" height="127" fill="none" stroke="#2922c3" stroke-width="1.5"/>
+  <text x="52" y="10" font-size="8" fill="#2922c3">com.android.systemui:id/status_bar_start…</text>
+  <rect x="50" y="1" width="86" height="127" fill="none" stroke="#c35822" stroke-width="1.5"/>
+  <text x="52" y="10" font-size="8" fill="#c35822">3:30</text>
+  <rect x="136" y="1" width="116" height="127" fill="none" stroke="#22c387" stroke-width="1.5"/>
+  <text x="138" y="10" font-size="8" fill="#22c387">com.android.systemui:id/notification_ico…</text>
+  <rect x="136" y="1" width="116" height="127" fill="none" stroke="#b622c3" stroke-width="1.5"/>
+  <text x="138" y="10" font-size="8" fill="#b622c3">com.android.systemui:id/notificationIcon…</text>
+  <rect x="136" y="1" width="58" height="127" fill="none" stroke="#a1c322" stroke-width="1.5"/>
+  <text x="138" y="10" font-size="8" fill="#a1c322">Security &amp; privacy notification: Set a s…</text>
+  <rect x="194" y="1" width="58" height="127" fill="none" stroke="#2272c3" stroke-width="1.5"/>
+  <text x="196" y="10" font-size="8" fill="#2272c3">Android System notification: Serial cons…</text>
+  <rect x="469" y="1" width="118" height="127" fill="none" stroke="#c32244" stroke-width="1.5"/>
+  <text x="471" y="10" font-size="8" fill="#c32244">com.android.systemui:id/cutout_space_vie…</text>
+  <rect x="587" y="1" width="419" height="127" fill="none" stroke="#22c330" stroke-width="1.5"/>
+  <text x="589" y="10" font-size="8" fill="#22c330">com.android.systemui:id/status_bar_end_s…</text>
+  <rect x="885" y="1" width="121" height="127" fill="none" stroke="#5f22c3" stroke-width="1.5"/>
+  <text x="887" y="10" font-size="8" fill="#5f22c3">com.android.systemui:id/status_bar_end_s…</text>
+  <rect x="885" y="1" width="121" height="127" fill="none" stroke="#c38e22" stroke-width="1.5"/>
+  <text x="887" y="10" font-size="8" fill="#c38e22">com.android.systemui:id/system_icons</text>
+  <rect x="885" y="1" width="101" height="127" fill="none" stroke="#22c3bd" stroke-width="1.5"/>
+  <text x="887" y="10" font-size="8" fill="#22c3bd">com.android.systemui:id/statusIcons</text>
+  <rect x="885" y="35" width="46" height="58" fill="none" stroke="#c3229b" stroke-width="1.5"/>
+  <text x="887" y="44" font-size="8" fill="#c3229b">com.android.systemui:id/wifi_combo</text>
+  <rect x="892" y="35" width="39" height="58" fill="none" stroke="#6cc322" stroke-width="1.5"/>
+  <text x="894" y="44" font-size="8" fill="#6cc322">com.android.systemui:id/wifi_group</text>
+  <rect x="892" y="44" width="39" height="39" fill="none" stroke="#223dc3" stroke-width="1.5"/>
+  <text x="894" y="53" font-size="8" fill="#223dc3">com.android.systemui:id/wifi_combo</text>
+  <rect x="892" y="44" width="39" height="39" fill="none" stroke="#c33722" stroke-width="1.5"/>
+  <text x="894" y="53" font-size="8" fill="#c33722">com.android.systemui:id/wifi_signal</text>
+  <rect x="931" y="35" width="39" height="58" fill="none" stroke="#22c366" stroke-width="1.5"/>
+  <text x="933" y="44" font-size="8" fill="#22c366">com.android.systemui:id/mobile_combo</text>
+  <rect x="931" y="35" width="39" height="58" fill="none" stroke="#9522c3" stroke-width="1.5"/>
+  <text x="933" y="44" font-size="8" fill="#9522c3">com.android.systemui:id/mobile_group</text>
+  <rect x="931" y="44" width="39" height="39" fill="none" stroke="#c3c322" stroke-width="1.5"/>
+  <rect x="931" y="44" width="39" height="39" fill="none" stroke="#2294c3" stroke-width="1.5"/>
+  <text x="933" y="53" font-size="8" fill="#2294c3">com.android.systemui:id/mobile_signal</text>
+  <rect x="986" y="1" width="20" height="127" fill="none" stroke="#c32265" stroke-width="1.5"/>
+  <text x="988" y="10" font-size="8" fill="#c32265">com.android.systemui:id/battery</text>
+  <rect x="986" y="47" width="20" height="34" fill="none" stroke="#36c322" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#3e22c3" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#c36d22" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#22c39c" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#22c39c">android:id/content</text>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#c322bc" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#c322bc">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#8dc322" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#8dc322">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#225ec3" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#225ec3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="0" y="0" width="1080" height="2400" fill="none" stroke="#c3222f" stroke-width="1.5"/>
+  <text x="2" y="9" font-size="8" fill="#c3222f">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="29" y="195" width="1022" height="1584" fill="none" stroke="#22c345" stroke-width="1.5"/>
+  <rect x="57" y="223" width="966" height="1528" fill="none" stroke="#7422c3" stroke-width="1.5"/>
+  <rect x="57" y="223" width="966" height="272" fill="none" stroke="#c3a222" stroke-width="1.5"/>
+  <text x="59" y="232" font-size="8" fill="#c3a222">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="99" y="224" width="924" height="271" fill="none" stroke="#22b5c3" stroke-width="1.5"/>
+  <text x="101" y="233" font-size="8" fill="#22b5c3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="99" y="224" width="924" height="271" fill="none" stroke="#c32286" stroke-width="1.5"/>
+  <text x="101" y="233" font-size="8" fill="#c32286">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="99" y="224" width="924" height="271" fill="none" stroke="#57c322" stroke-width="1.5"/>
+  <rect x="99" y="292" width="924" height="135" fill="none" stroke="#2228c3" stroke-width="1.5"/>
+  <text x="101" y="301" font-size="8" fill="#2228c3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="99" y="292" width="924" height="62" fill="none" stroke="#c34b22" stroke-width="1.5"/>
+  <text x="101" y="301" font-size="8" fill="#c34b22">Fri, Jun 19</text>
+  <rect x="99" y="378" width="21" height="49" fill="none" stroke="#22c37a" stroke-width="1.5"/>
+  <text x="101" y="387" font-size="8" fill="#22c37a">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="309" y="1479" width="210" height="272" fill="none" stroke="#a922c3" stroke-width="1.5"/>
+  <text x="311" y="1488" font-size="8" fill="#a922c3">Gmail</text>
+  <rect x="561" y="1479" width="210" height="272" fill="none" stroke="#aec322" stroke-width="1.5"/>
+  <text x="563" y="1488" font-size="8" fill="#aec322">Photos</text>
+  <rect x="813" y="1479" width="210" height="272" fill="none" stroke="#227fc3" stroke-width="1.5"/>
+  <text x="815" y="1488" font-size="8" fill="#227fc3">YouTube</text>
+  <rect x="0" y="128" width="1080" height="2209" fill="none" stroke="#c32250" stroke-width="1.5"/>
+  <text x="2" y="137" font-size="8" fill="#c32250">Home</text>
+  <rect x="0" y="1810" width="1080" height="63" fill="none" stroke="#22c323" stroke-width="1.5"/>
+  <text x="2" y="1819" font-size="8" fill="#22c323">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="0" y="1873" width="1080" height="527" fill="none" stroke="#5222c3" stroke-width="1.5"/>
+  <text x="2" y="1882" font-size="8" fill="#5222c3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="76" y="1873" width="928" height="195" fill="none" stroke="#c38122" stroke-width="1.5"/>
+  <rect x="76" y="1873" width="173" height="195" fill="none" stroke="#22c3b0" stroke-width="1.5"/>
+  <text x="78" y="1882" font-size="8" fill="#22c3b0">Phone</text>
+  <rect x="328" y="1873" width="173" height="195" fill="none" stroke="#c322a7" stroke-width="1.5"/>
+  <text x="330" y="1882" font-size="8" fill="#c322a7">Messages</text>
+  <rect x="580" y="1873" width="173" height="195" fill="none" stroke="#78c322" stroke-width="1.5"/>
+  <text x="582" y="1882" font-size="8" fill="#78c322">Chrome</text>
+  <rect x="832" y="1873" width="172" height="195" fill="none" stroke="#2249c3" stroke-width="1.5"/>
+  <text x="834" y="1882" font-size="8" fill="#2249c3">Gmail</text>
+  <rect x="75" y="2125" width="929" height="165" fill="none" stroke="#c32a22" stroke-width="1.5"/>
+  <text x="77" y="2134" font-size="8" fill="#c32a22">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="86" y="2144" width="126" height="126" fill="none" stroke="#22c359" stroke-width="1.5"/>
+  <text x="88" y="2153" font-size="8" fill="#22c359">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="741" y="2125" width="252" height="165" fill="none" stroke="#8822c3" stroke-width="1.5"/>
+  <text x="743" y="2134" font-size="8" fill="#8822c3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="741" y="2125" width="126" height="165" fill="none" stroke="#c3b722" stroke-width="1.5"/>
+  <text x="743" y="2134" font-size="8" fill="#c3b722">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="867" y="2125" width="126" height="165" fill="none" stroke="#22a0c3" stroke-width="1.5"/>
+  <text x="869" y="2134" font-size="8" fill="#22a0c3">com.google.android.apps.nexuslauncher:id…</text>
+  <rect x="0" y="2006" width="1080" height="394" fill="none" stroke="#c32271" stroke-width="1.5"/>
+  <text x="2" y="2015" font-size="8" fill="#c32271">com.google.android.apps.nexuslauncher:id…</text>
+</svg>

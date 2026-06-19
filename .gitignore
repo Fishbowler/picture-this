@@ -3,7 +3,7 @@
 /picture-this.exe
 picture-this-*
 
-# Generated output
-*.svg
+# Generated output (root only; keep committed examples under docs/)
+/*.svg
 
 .DS_Store
