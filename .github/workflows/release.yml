@@ -1,0 +1,81 @@
+name: Release
+
+# Triggered by pushing a version tag, e.g. `git tag v0.1.0 && git push origin v0.1.0`.
+on:
+  push:
+    tags: ["v*"]
+
+jobs:
+  # Cross-compile one binary per platform and upload each as a CI artifact.
+  build:
+    name: build ${{ matrix.goos }}/${{ matrix.goarch }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { goos: darwin, goarch: amd64 }
+          - { goos: darwin, goarch: arm64 }
+          - { goos: linux, goarch: amd64 }
+          - { goos: linux, goarch: arm64 }
+          - { goos: windows, goarch: amd64 }
+          - { goos: windows, goarch: arm64 }
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: false
+
+      - name: Build and package
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          CGO_ENABLED: 0
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME}"
+          bin="picture-this"
+          [ "$GOOS" = "windows" ] && bin="picture-this.exe"
+          go build -trimpath -ldflags "-s -w" -o "$bin" .
+
+          name="picture-this_${version}_${GOOS}_${GOARCH}"
+          if [ "$GOOS" = "windows" ]; then
+            zip "${name}.zip" "$bin" README.md
+            echo "asset=${name}.zip" >> "$GITHUB_OUTPUT"
+          else
+            tar -czf "${name}.tar.gz" "$bin" README.md
+            echo "asset=${name}.tar.gz" >> "$GITHUB_OUTPUT"
+          fi
+        id: package
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: picture-this_${{ matrix.goos }}_${{ matrix.goarch }}
+          path: ${{ steps.package.outputs.asset }}
+          if-no-files-found: error
+
+  # Gather every platform artifact, generate checksums, and attach to the release.
+  release:
+    name: publish release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # required to create/update the GitHub Release
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Generate checksums
+        run: |
+          cd dist
+          sha256sum * > checksums.txt
+          cat checksums.txt
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true

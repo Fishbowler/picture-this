@@ -8,6 +8,23 @@ the on-screen layout at a glance.
 
 `picture-this` is a single self-contained binary — no runtime required.
 
+### Download a prebuilt binary
+
+Grab the archive for your platform from the
+[latest release](https://github.com/Fishbowler/picture-this/releases/latest),
+unpack it, and put the binary on your `PATH`:
+
+```sh
+# macOS / Linux example
+tar -xzf picture-this_v0.1.0_darwin_arm64.tar.gz
+sudo mv picture-this /usr/local/bin/
+```
+
+On Windows, unzip and place `picture-this.exe` somewhere on your `PATH`.
+Each release also ships a `checksums.txt` for verification.
+
+### With the Go toolchain
+
 ```sh
 go install github.com/Fishbowler/picture-this@latest
 ```
