@@ -1,0 +1,9 @@
+# Built binary
+/picture-this
+/picture-this.exe
+picture-this-*
+
+# Generated output
+*.svg
+
+.DS_Store
